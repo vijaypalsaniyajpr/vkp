@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+
+       <!-- Static Header -->
+       <header class="sticky top-0 bg-white shadow-md py-4">
+        <nav class="max-w-7xl mx-auto px-4 flex justify-between">
+            <div class="text-lg font-bold">Portfolio</div>
+            <ul class="flex space-x-6">
+                <li><a href="index.html" class="hover:text-gray-700">Home</a></li>
+                <li><a href="about.html" class="hover:text-gray-700">About</a></li>
+                <li><a href="contact.html" class="hover:text-gray-700">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+<!-- About Section -->
+<section class="py-16 max-w-7xl mx-auto px-4 flex items-center gap-6">
+    <!-- Left Side (Your Photo) -->
+    <div class="w-full md:w-1/2 text-center md:text-left">
+        <img src="dp.jpg" alt="Vijay Kumar Palsaniya" class="mx-auto w-full md:w-72 h-auto max-w-full rounded-lg shadow-lg">
+    </div>
+
+    <!-- Right Side (About Me) -->
+    <div class="w-full md:w-1/2 mt-4 md:mt-0 md:pl-8">
+        <h2 class="text-4xl font-bold text-black-500 mb-4">About Me</h2>
+        <p class="text-lg text-gray-700 mb-4">
+            Hi, I’m <span class="text-black font-bold">Vijay Kumar Palsaniya</span>, a passionate <span class="text-black font-semibold">Full-Stack Developer</span> with expertise in building and managing web applications. I specialize in <span class="text-black font-semibold">React Native, PHP, MySQL, and Firebase</span>, and I have experience in developing efficient and scalable solutions across various platforms.
+        </p>
+        <p class="text-lg text-gray-700 mb-4">
+            I’ve worked on a variety of projects, including <span class="text-black font-semibold">vehicle management systems, truck owner bookkeeping websites,</span> and <span class="text-black font-semibold">fitness document management apps</span>, focusing on building professional, responsive, and efficient solutions.
+        </p>
+        <p class="text-lg text-gray-700 mb-4">
+            With a strong foundation in both <span class="text-black font-semibold">frontend and backend</span> technologies, I enjoy crafting intuitive user experiences while ensuring the systems are robust and secure. When I'm not coding, I’m exploring new technologies, experimenting with open-source tools, and staying updated with industry trends.
+        </p>
+        
+        <!-- Thanks for stopping by -->
+        <p class="mt-6 text-xl text-gray-700">Thanks for stopping by!</p>
+    </div>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer id="contact" class="bg-white py-8 border-t text-center">
+    <div class="mt-4">
+        <p class="flex justify-center items-center space-x-4">
+            <a href="mailto:vijaypalsaniyajaipur@gmail.com" class="flex items-center text-blue-500 hover:text-blue-700">
+                <img src="https://img.icons8.com/color/48/000000/gmail.png" alt="Email" class="w-6 h-6 mr-2">
+                vijaypalsaniyajaipur@gmail.com
+            </a>
+            <a href="tel:+91-9024970125" class="flex items-center text-blue-500 hover:text-blue-700">
+                <img src="https://img.icons8.com/color/48/000000/phone.png" alt="Phone" class="w-6 h-6 mr-2">
+                +91-9024970125
+            </a>
+            <a href="https://www.google.com/maps?q=Your+Address" target="_blank" class="flex items-center text-blue-500 hover:text-blue-700">
+                <img src="https://img.icons8.com/color/48/000000/place-marker.png" alt="Address" class="w-6 h-6 mr-2">
+                Pune, Maharashtra
+            </a>
+        </p>
+        <p class="mt-6 flex justify-center items-center space-x-2">
+            <img src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" alt="CC" class="w-6 h-6">
+            <img src="https://mirrors.creativecommons.org/presskit/icons/by.svg" alt="Attribution" class="w-6 h-6">
+            <span> 2024 Vijay Kumar Palsaniya.</span>
+        </p>
+    </div>
+</footer>
+    <!-- JavaScript for Mobile Menu -->
+    <script>
+        document.getElementById('menu-btn').addEventListener('click', function () {
+            let mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+    </script>
+
+
+</body>
+</html>
